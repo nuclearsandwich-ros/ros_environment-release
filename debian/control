@@ -1,0 +1,12 @@
+Source: ros-verystable-ros-environment
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-core, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ros-environment
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ros-workspace
+Description: The package provides the environment variables `ROS_VERSION` and `ROS_DISTRO`.
