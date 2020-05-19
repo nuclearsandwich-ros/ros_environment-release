@@ -1,1 +1,1 @@
-{"base": "d415522", "parent": "debian/foxy/ros_environment", "previous": "64e8bcf", "trim": "", "trimbase": ""}
+{"base": "661d34a", "parent": "debian/testing/ros_environment", "previous": "944a536", "trim": "", "trimbase": ""}
